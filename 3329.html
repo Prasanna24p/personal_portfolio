@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Srikanth's Web Developer Portfolio">
+    <title>Laxmi Prasanna</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+.name-below-photo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0px;
+}
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #home {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .cta-btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        #projects .project {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #projects a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+		<p class="name-below-photo">Laskhmi Prasanna</p>
+            <h1>Hi, I'm Lakshmi Prasanna – Web Developer & Machine Learning Enthusiast</h1>
+            <p>I create responsive websites and web applications. Explore my work below!</p>
+            <a href="#projects" class="cta-btn">Explore My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m passionate about crafting seamless digital experiences. Currently pursuing a BTech in Computer Science, I specialize in front-end technologies like HTML, CSS, and JavaScript. I also have experience with React, Node.js, and machine learning.</p>
+        <h3>Education</h3>
+        <p>Bachelor's in Computer Science, MLR institute(Expected Graduation: 2026)</p>
+        <h3>Experience</h3>
+        <p>Front-end Developer Intern at PRODIGY infotech, where I worked with React.js and JavaScript to build responsive websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Projects</h3>
+            <a href="https://github.com/Prasanna24p/project_3329.git" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Resume</h3>
+           
+            <a href="https://github.com/Prasanna24p/project_3329.git" target="_blank">View </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="your-server-endpoint" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>You can also reach me at: <a href="mailto:Prasanna@example.com">Prasanna@gmail.com</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Lakshmi Prasanna. All Rights Reserved.</p>
+        <ul>
+            <li><a href="hhttps://github.com/Prasanna24p/project_3329.git" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const ctaBtn = document.querySelector(".cta-btn");
+            ctaBtn.addEventListener("click", function() {
+                alert("Thanks for checking out my portfolio!");
+            });
+        });
+    </script>
+</body>
+</html>
